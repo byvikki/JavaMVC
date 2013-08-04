@@ -7,13 +7,44 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>SpringMVCMaven Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
+  <properties>
+  	<spring.version>3.0.5.RELEASE</spring.version>
+  	<junit.version>4.11</junit.version>
+  	<jdk.version>1.7</jdk.version>
+  </properties>
+  
   <dependencies>
+  
+  	<!-- Spring 3 Dependencies -->
+  	
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-core</artifactId>
+  		<version>${spring.version}</version>
+  	</dependency>
+  	
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-web</artifactId>
+  		<version>${spring.version}</version>
+  	</dependency>
+  	
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-webmvc</artifactId>
+  		<version>${spring.version}</version>
+  	</dependency>
+  
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
+    
+    
   </dependencies>
   <build>
     <finalName>SpringMVCMaven</finalName>
