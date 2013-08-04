@@ -1,5 +1,9 @@
 <html>
+
+	<head>
+		<title>Eclipse with GIT</title>
+	</head>
 	<body>
-		<h2>Hello World! this is  my first program</h2>
+		<h2>Using GIT repository</h2>
 	</body>
 </html>
