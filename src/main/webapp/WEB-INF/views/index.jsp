@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Eclipse with GIT</title>
+		<title>Eclipse withs GIT</title>
 	</head>
 	<body>
 		<h2>Message: ${message}</h2>
