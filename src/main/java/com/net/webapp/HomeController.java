@@ -12,7 +12,7 @@ public class HomeController {
 	@RequestMapping(value="/welcome", method=RequestMethod.GET)
 	public String welcome(ModelMap model){
 		
-		model.addAttribute("message", "Maven Web project with Spring MVC 3.0 - welcome");
+		model.addAttribute("message", "Maven Web project with Spring MVC 3.0 - Adding");
 		
 		return "index";
 		
