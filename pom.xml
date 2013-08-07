@@ -9,12 +9,14 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<spring.version>3.0.5.RELEASE</spring.version>
+		<spring.version>3.2.3.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<jdk.version>1.7</jdk.version>
 	</properties>
 
 	<dependencies>
+
+
 
 		<!-- Spring 3 Dependencies -->
 
@@ -36,12 +38,59 @@
 			<version>${spring.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<!-- Hibernate -->
+
+
+
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>4.2.3.Final</version>
+		</dependency>
+
+		<!-- Mysql connector -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.25</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>20030825.184428</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-pool</groupId>
+			<artifactId>commons-pool</artifactId>
+			<version>20030825.183949</version>
 		</dependency>
 
 
@@ -74,7 +123,7 @@
 				</executions>
 			</plugin>
 
-		</plugins>	
-		
+		</plugins>
+
 	</build>
 </project>
