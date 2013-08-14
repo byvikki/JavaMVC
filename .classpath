@@ -28,4 +28,7 @@
   <classpathentry kind="var" path="M2_REPO/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar"/>
   <classpathentry kind="var" path="M2_REPO/mysql/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.jar"/>
+  <classpathentry kind="var" path="M2_REPO/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-dbcp/commons-dbcp/20030825.184428/commons-dbcp-20030825.184428.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-pool/commons-pool/20030825.183949/commons-pool-20030825.183949.jar"/>
 </classpath>

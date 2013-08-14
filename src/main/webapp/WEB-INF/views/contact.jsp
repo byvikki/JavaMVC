@@ -33,7 +33,7 @@
 		</table>
 	</form:form>
 	
-	
+	<a href="<c:url value="j_spring_security_logout" />" > Logout</a>
 	<h3>Contact List</h3>
 	
 	<c:if test="${!empty contactList }">
