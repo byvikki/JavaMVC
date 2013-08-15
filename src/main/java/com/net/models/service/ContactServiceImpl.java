@@ -7,7 +7,6 @@ import com.net.models.dao.ContactDAO;
 import com.net.models.Contact;
 import org.springframework.transaction.annotation.Transactional;
 
-
 @Service
 public class ContactServiceImpl implements ContactService {
 	

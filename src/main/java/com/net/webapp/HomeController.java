@@ -12,7 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.net.models.service.ContactService;
 import com.net.models.Contact;
 
-
 @Controller
 public class HomeController {
 	
@@ -20,14 +19,11 @@ public class HomeController {
 	private ContactService contactService;
 	
 	@RequestMapping(value="/welcome", method=RequestMethod.GET)
-	public String welcome(ModelMap model){
-		
-		model.addAttribute("message", "Mapped to Home controller");
-		
+	public String welcome(ModelMap model){		
+		model.addAttribute("message", "Mapped to Home controller");		
 		return "index";
 		
 	}
-	
 	
 	@RequestMapping(value="/new", method=RequestMethod.GET)
 	public String showContact(Map<String, Object> map){
@@ -39,8 +35,7 @@ public class HomeController {
 	
 	@RequestMapping(value="/add", method=RequestMethod.POST)
 	public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result){
-		contactService.addContact(contact);
-		
+		contactService.addContact(contact);		
 		return "redirect:/action/new";
 	}
 
